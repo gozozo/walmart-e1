@@ -43,10 +43,20 @@ class ViewController: UIViewController {
         dataTextView.text = numbers.toJSON()
     }
 
+    /// Generates an array of integers.
+    /// 
+    /// - Returns: An array of integers.
     private func generateArray() -> [Int] {
         return (1...10000).map { _ in Int.random(in: 0...100) }
     }
 
+    /// Builds a descriptive text for a given method result and execution time.
+    ///
+    /// - Parameters:
+    ///   - forMethod: The name of the method for which the text is being built.
+    ///   - result: The result of the method execution.
+    ///   - time: The time taken for the method execution in seconds.
+    /// - Returns: A formatted string describing the method, its result, and the execution time.
     private func buildText(forMethod: String, result: Int, time: Double) -> String {
         return "\(forMethod) Result: \(result) Time: \(String(format: "%.7f", time))"
     }
@@ -54,6 +64,9 @@ class ViewController: UIViewController {
 
 extension Array {
 
+    /// Converts the current object to a JSON string representation.
+    /// 
+    /// - Returns: A `String` containing the JSON representation of the object.
     func toJSON() -> String {
         let jsonData = try! JSONSerialization.data(withJSONObject: self, options: .withoutEscapingSlashes)
         return String(data: jsonData, encoding: .utf8)!

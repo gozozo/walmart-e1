@@ -15,7 +15,7 @@
 		FD895D452CB7088000FF7E7A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FD895D442CB7088000FF7E7A /* Base */; };
 		FD895D5A2CB7088100FF7E7A /* walmart_e1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD895D592CB7088100FF7E7A /* walmart_e1UITests.swift */; };
 		FD895D5C2CB7088100FF7E7A /* walmart_e1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD895D5B2CB7088100FF7E7A /* walmart_e1UITestsLaunchTests.swift */; };
-		FD895D692CB70E1C00FF7E7A /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD895D682CB70E1C00FF7E7A /* Operation.swift */; };
+		FD895D692CB70E1C00FF7E7A /* SOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD895D682CB70E1C00FF7E7A /* SOperation.swift */; };
 		FD895D6B2CB713D800FF7E7A /* SOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD895D6A2CB713D800FF7E7A /* SOperationTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,7 @@
 		FD895D552CB7088100FF7E7A /* walmart-e1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "walmart-e1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD895D592CB7088100FF7E7A /* walmart_e1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmart_e1UITests.swift; sourceTree = "<group>"; };
 		FD895D5B2CB7088100FF7E7A /* walmart_e1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walmart_e1UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FD895D682CB70E1C00FF7E7A /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		FD895D682CB70E1C00FF7E7A /* SOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOperation.swift; sourceTree = "<group>"; };
 		FD895D6A2CB713D800FF7E7A /* SOperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOperationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +104,7 @@
 				FD895D382CB7087D00FF7E7A /* AppDelegate.swift */,
 				FD895D3A2CB7087D00FF7E7A /* SceneDelegate.swift */,
 				FD895D3C2CB7087D00FF7E7A /* ViewController.swift */,
-				FD895D682CB70E1C00FF7E7A /* Operation.swift */,
+				FD895D682CB70E1C00FF7E7A /* SOperation.swift */,
 				FD895D3E2CB7087D00FF7E7A /* Main.storyboard */,
 				FD895D412CB7088000FF7E7A /* Assets.xcassets */,
 				FD895D432CB7088000FF7E7A /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD895D3D2CB7087D00FF7E7A /* ViewController.swift in Sources */,
-				FD895D692CB70E1C00FF7E7A /* Operation.swift in Sources */,
+				FD895D692CB70E1C00FF7E7A /* SOperation.swift in Sources */,
 				FD895D392CB7087D00FF7E7A /* AppDelegate.swift in Sources */,
 				FD895D3B2CB7087D00FF7E7A /* SceneDelegate.swift in Sources */,
 			);
